@@ -11,7 +11,7 @@ export default function TestimonialCard({image, Name, role, display}: {image:str
                 <Image src={"/images/Vector.png"} alt="start" height={20} width={20} />
             </div>
 
-            <p className="w-[298px] ">"Lorem ipsum dolor sit amet, consectetur adipiscing elit. Suspendisse varius enim in eros elementum tristique. Duis cursus, mi quis viverra ornare."</p>
+            <p className="w-[298px] ">&quot;Lorem ipsum dolor sit amet, consectetur adipiscing elit. Suspendisse varius enim in eros elementum tristique. Duis cursus, mi quis viverra ornare.&quot;</p>
 
             <div className="flex justify-center items-center gap-5">
                 <Image src={`/images/our_team/${image}`} alt="image" height={50} width={50} className="rounded-full" />
